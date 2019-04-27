@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="34px" viewBox="0 0 36 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>negozio</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-109.000000, -460.000000)">
+            <g id="Masthead" transform="translate(-120.000000, -3.000000)">
+                <g id="Menu">
+                    <g id="Actions" transform="translate(136.000000, 332.000000)">
+                        <g id="Business" transform="translate(0.000000, 120.000000)">
+                            <g id="Group-5" transform="translate(94.000000, 12.000000)">
+                                <g id="negozio">
+                                    <g id="Group" transform="translate(20.072939, 17.706843)" fill="#FFFFFF" stroke="#FFFFFF">
+                                        <rect id="Rectangle-path" x="0.0266472096" y="0.0451412872" width="7.33919952" height="6.55822243"></rect>
+                                    </g>
+                                    <g id="Group" transform="translate(0.000000, 0.035971)" stroke="#FFFBFB">
+                                        <polygon id="Shape" points="0.0136960243 6.84976488 4.77986684 0.0195065312 29.353365 0.0195065312 34.2504698 6.84976488"></polygon>
+                                    </g>
+                                    <path d="M34.2387826,7.36914949 C34.285486,8.77784615 34.3833213,13.7488999 30.2803576,13.8213062 C26.6337911,13.8856778 25.5701579,11.3330624 25.5701579,11.3330624 C25.5701579,11.3330624 24.6401522,13.8293875 21.6969679,13.8380261 C18.14358,13.8484761 17.3393494,11.3393788 17.3393494,11.3393788 C17.3393494,11.3393788 16.2639833,13.7247489 13.140194,13.7471814 C9.67898041,13.7721219 8.72884154,11.3948331 8.72884154,11.3948331 C8.72884154,11.3948331 7.44328705,13.8200987 4.51014647,13.7471814 C-0.652159026,13.6189028 0.0452881872,7.36914949 0.0452881872,7.36914949 L34.2387826,7.36914949 Z" id="Shape" stroke="#FFFFFF" fill="#FFFFFF"></path>
+                                    <polyline id="Shape" stroke="#FFFFFF" points="31.3357276 13.8841916 31.3116226 31.8256023 3.23262697 31.9080406 3.24983831 13.5946125"></polyline>
+                                    <g id="Group" transform="translate(6.977202, 17.718809)" fill="#FFFFFF" stroke="#FFFFFF">
+                                        <rect id="Rectangle-path" x="0.0208636104" y="0.0332854038" width="8.5892334" height="14.1558992"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

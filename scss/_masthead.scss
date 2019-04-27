@@ -1,0 +1,97 @@
+// Styling for the masthead
+header.masthead {
+    height: auto;
+    background: url('../img/cover.jpg') center;
+    background-size: cover;
+
+    .masthead-content{
+        position: absolute;
+        bottom: 30px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+        background: url('../img/cover-sm.jpg') center;
+        background-size: cover;
+
+    }
+
+    @media (min-width: 320px) and (max-width: 480px)  and (orientation: portrait){
+
+        background: url('../img/cover-sm.jpg') center;
+        background-size: cover;
+
+    }
+
+    .os-info{
+        padding-left: 6px;
+        p{
+            padding-top: 14px;
+            font-size: 16px;
+            color: $textSecondaryColor;
+        }
+
+        img{
+            width: 24px;
+            height: auto;
+        }
+    }
+
+    .content{
+
+        @media (max-width: 768px){
+        }
+
+        h1{
+            font-weight: 700;
+            color: $textSecondaryColor;
+            line-height: 1.4em;
+
+            @media (max-width: 576px){ // xs
+                font-size: 32px;
+            }
+
+            @media (min-width: 576px){ // sm
+                font-size: 36px;
+            }
+
+            @media (min-width: 768px){ // md
+                font-size: 48px;
+            }
+
+            @media (min-width: 992px){ // lg
+                font-size: 56px;
+            }
+
+            @media (min-width: 1200px){ // xl
+                font-size: 64px;
+            }
+
+        }
+
+        h2{
+            color: fade_out($textSecondaryColor, .2);
+
+            @media (max-width: 576px){ // xs
+                font-size: 16px;
+            }
+
+            @media (min-width: 576px){ // sm
+                font-size: 18px;
+            }
+
+            @media (min-width: 768px){ // md
+                font-size: 20px;
+            }
+
+            @media (min-width: 992px){ // lg
+                font-size: 22px;
+            }
+
+            @media (min-width: 1200px){ // xl
+                font-size: 24px;
+            }
+
+        }
+    }
+}

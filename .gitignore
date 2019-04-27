@@ -64,3 +64,11 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+# SASS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+*.js.map
+*.min.map

@@ -1,0 +1,29 @@
+// Styling for the download section
+section.contact {
+    padding: 100px 0 10px 0;
+    color: $textSecondaryColor;
+
+    li{
+        list-style: none;
+        color: fade-out($textSecondaryColor, .4);
+
+        &.list-contact-title{
+            color: $textSecondaryColor;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+    }
+
+    ul.list-contact{
+        list-style: none;
+        padding: 0;
+
+        & > li > a{
+            color: fade-out($textSecondaryColor, .4);
+            &:hover{
+                color: $textSecondaryColor;
+                text-decoration: none;
+            }
+        }
+    }
+}

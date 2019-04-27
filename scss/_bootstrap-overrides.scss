@@ -1,0 +1,13 @@
+// Bootstrap overrides for this template
+.bg-primary {
+    background: $colorPrimary !important;
+}
+
+.text-primary {
+    color: $textPrimaryColor;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}

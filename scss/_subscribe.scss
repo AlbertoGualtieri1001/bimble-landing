@@ -1,0 +1,46 @@
+// Styling for the features section
+section#subscribe {
+
+    form{
+        padding: 24px 32px;
+        background: white;
+        -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+        border-radius: 16px;
+
+        ul{
+            list-style-type: none;
+        }
+
+        .text-18{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .text-14{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .text-12{
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        img.gdpr_icon{
+            width: 48px;
+            height: 48px;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+
+        .asterisk{
+            color: orangered;
+        }
+
+        .btn-action{
+            @media (max-width: 576px){
+                width: 100%;
+            }
+        }
+    }
+}

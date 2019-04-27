@@ -1,0 +1,99 @@
+// Styling for the navbar
+#mainNav {
+    padding-top: 16px;
+    border-color: fade-out($gray-darker, .95);
+    background: transparent;
+
+    @include transition-all;
+    @include heading-font;
+    img{
+        height: 36px;
+    }
+
+    &.navbar-shrink {
+        border-color: fade-out($gray-darker, .9);
+        background: $colorAccent; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, $colorAccent 0%, $colorAccentDark 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  $colorAccent 0%, $colorAccentDark 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, $colorAccent 0%,$colorAccentDark 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colorAccent', endColorstr='$colorAccentDark',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    .navbar-brand {
+        color: $textSecondaryColor;
+        @include heading-font;
+        &:hover,
+        &:focus {
+            color: darken($textSecondaryColor, 5%);
+        }
+        > img{
+            margin-right: 20px;
+        }
+    }
+    .navbar-toggler {
+        font-size: 12px;
+        padding: 8px 10px;
+        color: $textSecondaryColor;
+        border-color: $textSecondaryColor;
+    }
+    .navbar-nav {
+        > li {
+            > a {
+                &.active {
+                    color: $textSecondaryColor !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+            > a,
+            > a:focus {
+                color: $textSecondaryColor;
+                &:hover {
+                    color: $textSecondaryColor;
+                }
+            }
+        }
+
+        .nav-item{
+            padding-left: 20px;
+        }
+    }
+    @media (min-width: 992px) {
+        .navbar-brand {
+            color: fade-out($textSecondaryColor, .3);
+            &:hover,
+            &:focus {
+                color: $textSecondaryColor;
+            }
+        }
+        .navbar-nav > li > a,
+        .navbar-nav > li > a:focus {
+            color: fade-out($textSecondaryColor, .3);
+            &:hover {
+                color: $textSecondaryColor;
+            }
+        }
+        &.navbar-shrink {
+            background: $colorAccent; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, $colorAccent 0%, $colorAccentDark 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg,  $colorAccent 0%, $colorAccentDark 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, $colorAccent 0%,$colorAccentDark 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colorAccent', endColorstr='$colorAccentDark',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            .navbar-brand {
+                color: $textSecondaryColor;
+                &:hover,
+                &:focus {
+                    color: $textSecondaryColor;
+                }
+            }
+            .navbar-nav > li > a,
+            .navbar-nav > li > a:focus {
+                color: $gray-darker;
+                &:hover {
+                    color: $textSecondaryColor;
+                }
+            }
+        }
+    }
+}

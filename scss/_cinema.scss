@@ -1,0 +1,22 @@
+.cinema{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: fade_out(black, 0.4);
+    z-index: 1000;
+
+    img.cinema-close{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
