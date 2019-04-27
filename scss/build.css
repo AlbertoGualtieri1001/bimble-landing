@@ -313,40 +313,21 @@ header.masthead {
       header.masthead .content h2 {
         font-size: 24px; } }
 
-section.features .section-heading {
+section.hiw .section-heading {
   margin-bottom: 20px; }
-  section.features .section-heading h2 {
+  section.hiw .section-heading h4 {
     margin-top: 0;
     color: #2A2B37; }
-  section.features .section-heading p {
+  section.hiw .section-heading p {
     margin-bottom: 0;
     color: rgba(42, 43, 55, 0.6); }
-section.features .device,
-section.features .feature-item {
-  max-width: 325px;
-  margin: 0 auto; }
-section.features .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center; }
-  section.features .feature-item h3 {
-    font-size: 30px; }
-  section.features .feature-item i {
-    font-size: 56px;
-    display: block;
-    margin-bottom: 15px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-    section.features .feature-item i.accent-1 {
-      background-color: #F09819; }
-    section.features .feature-item i.accent-2 {
-      background-color: #22E1FF; }
-    section.features .feature-item i.accent-3 {
-      background-color: #9BE15D; }
-  section.features .feature-item img {
-    height: 83px;
-    width: auto;
-    margin-bottom: 15px; }
+section.hiw .hiw-step p {
+  color: rgba(42, 43, 55, 0.6); }
+section.hiw .hiw-step.hiw-shape-1 {
+  padding: 12px;
+  background: url("../img/hiw-shape-1.svg") center center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain; }
 
 section#subscribe form {
   padding: 24px 32px;

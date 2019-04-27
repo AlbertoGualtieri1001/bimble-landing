@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="351px" height="268px" viewBox="0 0 351 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>hiw-shape-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="3.77401763e-30%" x2="6.66133815e-14%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#22E1FF" offset="0%"></stop>
+            <stop stop-color="#625EB1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="misc" transform="translate(-169.000000, -399.000000)" stroke="url(#linearGradient-1)" stroke-width="6">
+            <path d="M172,404 C229.036223,422.220482 286.536223,431.330723 344.5,431.330723 C402.463777,431.330723 459.963777,422.220482 517,404 L517,632.674699 C459.5,653.558233 402,664 344.5,664 C287,664 229.5,653.558233 172,632.674699 L172,404 Z" id="hiw-shape-2"></path>
+        </g>
+    </g>
+</svg>

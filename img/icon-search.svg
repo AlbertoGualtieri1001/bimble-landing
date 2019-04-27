@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="132px" viewBox="0 0 132 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="1.71737624e-14%" x2="98.1624384%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F09819" offset="0%"></stop>
+            <stop stop-color="#FF5858" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop" transform="translate(-277.000000, -1133.000000)" stroke="url(#linearGradient-1)" stroke-width="3">
+            <g id="How-it-works" transform="translate(0.000000, 809.000000)">
+                <g id="HIW-business">
+                    <g id="1" transform="translate(143.000000, 273.000000)">
+                        <g id="search" transform="translate(136.000000, 53.000000)">
+                            <circle id="Oval" cx="50.1754386" cy="50.1754386" r="50.1754386"></circle>
+                            <path d="M127.719298,127.719298 L86.6666667,86.6666667" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

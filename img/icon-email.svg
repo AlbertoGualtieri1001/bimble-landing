@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="108px" viewBox="0 0 134 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="6.16343852e-14%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#22E1FF" offset="0%"></stop>
+            <stop stop-color="#625EB1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop" transform="translate(-658.000000, -1125.000000)" stroke="url(#linearGradient-1)" stroke-width="3">
+            <g id="How-it-works" transform="translate(0.000000, 809.000000)">
+                <g id="HIW-artists">
+                    <g id="Group-2" transform="translate(144.000000, 274.000000)">
+                        <g id="2" transform="translate(380.000000, 0.000000)">
+                            <g id="mail" transform="translate(136.000000, 44.000000)">
+                                <path d="M13,0 L117,0 C124.15,0 130,5.85862832 130,13.019174 L130,91.1342183 C130,98.294764 124.15,104.153392 117,104.153392 L13,104.153392 C5.85,104.153392 0,98.294764 0,91.1342183 L0,13.019174 C0,5.85862832 5.85,0 13,0 Z" id="Shape"></path>
+                                <polyline id="Shape" points="130 13.019174 65 58.5862832 0 13.019174"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

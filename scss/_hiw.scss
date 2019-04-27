@@ -1,0 +1,29 @@
+// Styling for the features section
+
+section.hiw {
+
+    .section-heading {
+        margin-bottom: 20px;
+        h4 {
+            margin-top: 0;
+            color: $textPrimaryColor;
+        }
+        p {
+            margin-bottom: 0;
+            color: fade_out($textPrimaryColor, 0.4);
+        }
+    }
+
+    .hiw-step{
+        p {
+            color: fade_out($textPrimaryColor, 0.4);
+        }
+
+        &.hiw-shape-1{
+            padding: 12px;
+            background: url("../img/hiw-shape-1.svg") center center no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+    }
+}
