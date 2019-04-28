@@ -313,19 +313,36 @@ header.masthead {
       header.masthead .content h2 {
         font-size: 24px; } }
 
-section.hiw .section-heading {
+section.hiw-mobile .section-heading,
+section.hiw-desktop .section-heading {
   margin-bottom: 20px; }
-  section.hiw .section-heading h4 {
+  section.hiw-mobile .section-heading h4,
+  section.hiw-desktop .section-heading h4 {
     margin-top: 0;
     color: #2A2B37; }
-  section.hiw .section-heading p {
+  section.hiw-mobile .section-heading p,
+  section.hiw-desktop .section-heading p {
     margin-bottom: 0;
     color: rgba(42, 43, 55, 0.6); }
-section.hiw .hiw-step p {
-  color: rgba(42, 43, 55, 0.6); }
-section.hiw .hiw-step.hiw-shape-1 {
-  padding: 12px;
-  background: url("../img/hiw-shape-1.svg") center center no-repeat;
+section.hiw-mobile .hiw-artist .hiw-step,
+section.hiw-desktop .hiw-artist .hiw-step {
+  height: 280px; }
+  section.hiw-mobile .hiw-artist .hiw-step p,
+  section.hiw-desktop .hiw-artist .hiw-step p {
+    color: rgba(42, 43, 55, 0.6); }
+section.hiw-mobile .hiw-artist .hiw-shape-1,
+section.hiw-desktop .hiw-artist .hiw-shape-1 {
+  background: url("../img/hiw-shape-1.svg") top center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain; }
+section.hiw-mobile .hiw-artist .hiw-shape-2,
+section.hiw-desktop .hiw-artist .hiw-shape-2 {
+  background: url("../img/hiw-shape-2.svg") top center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain; }
+section.hiw-mobile .hiw-artist .hiw-shape-3,
+section.hiw-desktop .hiw-artist .hiw-shape-3 {
+  background: url("../img/hiw-shape-3.svg") top center no-repeat;
   -webkit-background-size: contain;
   background-size: contain; }
 

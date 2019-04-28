@@ -1,6 +1,7 @@
 // Styling for the features section
 
-section.hiw {
+section.hiw-mobile,
+section.hiw-desktop{
 
     .section-heading {
         margin-bottom: 20px;
@@ -14,14 +15,29 @@ section.hiw {
         }
     }
 
-    .hiw-step{
-        p {
-            color: fade_out($textPrimaryColor, 0.4);
+    .hiw-artist{
+        .hiw-step{
+            height: 280px;
+
+            p {
+                color: fade_out($textPrimaryColor, 0.4);
+            }
         }
 
-        &.hiw-shape-1{
-            padding: 12px;
-            background: url("../img/hiw-shape-1.svg") center center no-repeat;
+        .hiw-shape-1{
+            background: url("../img/hiw-shape-1.svg") top center no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+
+        .hiw-shape-2{
+            background: url("../img/hiw-shape-2.svg") top center no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+
+        .hiw-shape-3{
+            background: url("../img/hiw-shape-3.svg") top center no-repeat;
             -webkit-background-size: contain;
             background-size: contain;
         }
