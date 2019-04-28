@@ -15,15 +15,16 @@ section.hiw-desktop{
         }
     }
 
-    .hiw-artist{
-        .hiw-step{
-            height: 280px;
+    .hiw-step{
+        height: 280px;
 
-            p {
-                color: fade_out($textPrimaryColor, 0.4);
-            }
+        p {
+            color: fade_out($textPrimaryColor, 0.4);
         }
+    }
 
+    .hiw-artist,
+    .hiw-business{
         .hiw-shape-1{
             background: url("../img/hiw-shape-1.svg") top center no-repeat;
             -webkit-background-size: contain;

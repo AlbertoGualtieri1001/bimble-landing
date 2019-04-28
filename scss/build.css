@@ -324,24 +324,30 @@ section.hiw-desktop .section-heading {
   section.hiw-desktop .section-heading p {
     margin-bottom: 0;
     color: rgba(42, 43, 55, 0.6); }
-section.hiw-mobile .hiw-artist .hiw-step,
-section.hiw-desktop .hiw-artist .hiw-step {
+section.hiw-mobile .hiw-step,
+section.hiw-desktop .hiw-step {
   height: 280px; }
-  section.hiw-mobile .hiw-artist .hiw-step p,
-  section.hiw-desktop .hiw-artist .hiw-step p {
+  section.hiw-mobile .hiw-step p,
+  section.hiw-desktop .hiw-step p {
     color: rgba(42, 43, 55, 0.6); }
 section.hiw-mobile .hiw-artist .hiw-shape-1,
-section.hiw-desktop .hiw-artist .hiw-shape-1 {
+section.hiw-mobile .hiw-business .hiw-shape-1,
+section.hiw-desktop .hiw-artist .hiw-shape-1,
+section.hiw-desktop .hiw-business .hiw-shape-1 {
   background: url("../img/hiw-shape-1.svg") top center no-repeat;
   -webkit-background-size: contain;
   background-size: contain; }
 section.hiw-mobile .hiw-artist .hiw-shape-2,
-section.hiw-desktop .hiw-artist .hiw-shape-2 {
+section.hiw-mobile .hiw-business .hiw-shape-2,
+section.hiw-desktop .hiw-artist .hiw-shape-2,
+section.hiw-desktop .hiw-business .hiw-shape-2 {
   background: url("../img/hiw-shape-2.svg") top center no-repeat;
   -webkit-background-size: contain;
   background-size: contain; }
 section.hiw-mobile .hiw-artist .hiw-shape-3,
-section.hiw-desktop .hiw-artist .hiw-shape-3 {
+section.hiw-mobile .hiw-business .hiw-shape-3,
+section.hiw-desktop .hiw-artist .hiw-shape-3,
+section.hiw-desktop .hiw-business .hiw-shape-3 {
   background: url("../img/hiw-shape-3.svg") top center no-repeat;
   -webkit-background-size: contain;
   background-size: contain; }

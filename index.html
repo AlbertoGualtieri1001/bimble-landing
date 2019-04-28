@@ -111,8 +111,8 @@
                 <span class="mt-3"></span>
                 <h2 class="mt-3 col-md-8 col-10">Get started as:</h2>
                 <div class="flex-row flex-sm-column">
-                    <a href="#hiw-artists" class="col-sm-12 col-md-4 mt-4 mr-md-2 btn btn-accent btn-icon-artist btn-shadow btn-icon btn-xl js-scroll-trigger">ARTIST</a>
-                    <a href="#hiw-business" class="col-sm-12 col-md-4 mt-4 btn btn-accent-2 btn-icon-business btn-shadow btn-xl js-scroll-trigger js-scroll-trigger">BUSINESS</a>
+                    <a id="btn-artist" href="#hiw-artist" class="col-sm-12 col-md-4 mt-4 mr-md-2 btn btn-accent btn-icon-artist btn-shadow btn-icon btn-xl js-scroll-trigger">ARTIST</a>
+                    <a id="btn-business" href="#hiw-business" class="col-sm-12 col-md-4 mt-4 btn btn-accent-2 btn-icon-business btn-shadow btn-xl js-scroll-trigger">BUSINESS</a>
                 </div>
             </div>
         </div>
@@ -120,8 +120,10 @@
 
     <!-- How it works -->
     <section class="hiw-mobile">
-        <div class="container hiw-artist">
-            <div class="section-heading text-center" id="features">
+
+        <!-- Artist -->
+        <div class="container hiw-artist" id="hiw-artist">
+            <div class="section-heading text-center">
                 <h4>How it works</h4>
                 <p>for artists</p>
                 <hr>
@@ -138,6 +140,29 @@
                 <div class="hiw-step hiw-shape-3 col-12 d-flex flex-column align-items-center text-center">
                     <img class="col-5 mt-auto ml-2" src="img/icon-sell.svg">
                     <p class="pt-2 pb-1 mb-auto">Interested clients will buy your art</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Business -->
+        <div class="container hiw-business d-none" id="hiw-business">
+            <div class="section-heading text-center">
+                <h4>How it works</h4>
+                <p>for business</p>
+                <hr>
+            </div>
+            <div class="row p-2">
+                <div class="hiw-step hiw-shape-1 col-12 d-flex flex-column align-items-center text-center">
+                    <img class="col-5 mt-auto" src="img/icon-search.svg">
+                    <p class="pt-2 pb-1 mb-auto">Search for art</p>
+                </div>
+                <div class="hiw-step hiw-shape-2 col-12 d-flex flex-column align-items-center text-center">
+                    <img class="col-4 mt-auto" src="img/icon-email.svg">
+                    <p class="pt-2 pb-1 mb-auto">Contact the artist</p>
+                </div>
+                <div class="hiw-step hiw-shape-3 col-12 d-flex flex-column align-items-center text-center">
+                    <img class="col-5 mt-auto ml-2" src="img/icon-business.svg">
+                    <p class="pt-2 pb-1 mb-auto">Exhibit art in your business for free</p>
                 </div>
             </div>
         </div>
