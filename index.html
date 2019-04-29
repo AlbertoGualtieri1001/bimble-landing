@@ -74,7 +74,7 @@
     <!-- Custom styles for this template -->
     <link href="scss/build.css" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -136,7 +136,7 @@
     </header>
 
     <!-- How it works -->
-    <section class="hiw-mobile">
+    <section class="hiw-mobile" data-aos="fade-in" >
 
         <!-- Artist -->
         <div class="container hiw-artist" id="hiw-artist">
@@ -185,20 +185,29 @@
         </div>
     </section>
 
-    <section class="gallery" id="gallery">
-        <div class="gallery-title ml-3 mb-5 d-flex flex-column">
-            <h1>Gallery</h1>
-            <img class="img-fluid w-75 pull-left" src="img/gallery-title-underline.svg">
+    <section class="gallery" id="gallery"  data-aos="fade-in">
+        <div class="gallery-title row ml-3 mb-5 align-items-center">
+            <div class="col-md-6 align-bottom">
+                <h1>Gallery</h1>
+                <img class="img-fluid pull-left" src="img/gallery-title-underline.svg">
+            </div>
+            <div class="col-md-6 text-right d-none d-md-block">
+                <a href="#"
+                   class="btn-upload-art mt-5 mr-5 btn btn-accent btn-shadow btn-icon btn-xl
+               js-scroll-trigger d-inline">Upload
+                    your art</a>
+            </div>
+
         </div>
 
         <div class="gallery-container d-flex flex-row flex-wrap justify-content-center">
             <div class="d-flex flex-column">
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/marina1.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/marina1.jpg"
                      alt="Marina (Innacure)"
                      data-width="1276" data-height="1600"
                      onclick="openPainting(this);"
                 />
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/alba1.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/alba1.jpg"
                      alt="Alba Garcia"
                      data-width="1000" data-height="1007"
                      onclick="openPainting(this);"
@@ -206,12 +215,12 @@
             </div>
 
             <div class="d-flex flex-column">
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/laurabelmonte1.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/laurabelmonte1.jpg"
                      alt="Laura Belmonte"
                      data-width="638" data-height="909"
                      onclick="openPainting(this);"
                 />
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/laurabelmonte3.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/laurabelmonte3.jpg"
                      alt="Laura Belmonte"
                      data-width="697" data-height="467"
                      onclick="openPainting(this);"
@@ -219,12 +228,12 @@
 
             </div>
             <div class="d-flex flex-column">
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/marina2.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/marina2.jpg"
                      alt="Marina (Innacure)"
                      data-width="1440" data-height="1038"
                      onclick="openPainting(this);"
                 />
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/laurabelmonte2.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/laurabelmonte2.jpg"
                      alt="Laura Belmonte"
                      data-width="675" data-height="904"
                      onclick="openPainting(this);"
@@ -232,12 +241,12 @@
             </div>
 
             <div class="d-flex flex-column">
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/karyaoktem2.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/karyaoktem2.jpg"
                      alt="Karya Oktem"
                      data-width="1020" data-height="1422"
                      onclick="openPainting(this);"
                 />
-                <img class="gallery-img img-fluid image m-1" src="img/paintings/karyaoktem1.jpg"
+                <img class="gallery-img img-fluid image m-1" data-aos="fade-in" src="img/paintings/karyaoktem1.jpg"
                      alt="Karya Oktem"
                      data-width="1400" data-height="1090"
                      onclick="openPainting(this);"
@@ -245,8 +254,13 @@
             </div>
         </div>
 
-        <a href="#"
-           class="btn-upload-art btn btn-accent col-10 offset-1 btn-shadow btn-icon btn-xl js-scroll-trigger">Upload your art</a>
+        <div class="row justify-content-center p-3">
+            <a href="#"
+               class="btn-upload-art mt-5 btn btn-accent btn-shadow btn-icon btn-xl
+               js-scroll-trigger col-auto d-md-none">Upload
+                your art</a>
+        </div>
+
     </section>
 
     <section class="team" id="team">
@@ -371,6 +385,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/build.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
