@@ -55,18 +55,20 @@
 // Collection of the painting metadata, collected at document ready
 var paintings = [];
 
-$(document).ready(function() {
+$(document).ready(function () {
     // Load paintings data
     var imagesElements = $(".gallery-img");
-    for (var i = 0; i<imagesElements.length; i++) {
+    for (var i = 0; i < imagesElements.length; i++) {
         var element = imagesElements[i];
         var src = $(element).attr("src");
         var w = $(element).attr("data-width");
         var h = $(element).attr("data-height");
+        var title = $(element).attr("alt");
         paintings.push({
-           src: src,
-           w: w,
-           h: h,
+            src: src,
+            w: w,
+            h: h,
+            title: title,
         });
     }
 });
