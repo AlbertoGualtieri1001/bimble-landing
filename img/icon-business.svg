@@ -4,9 +4,9 @@
     <title>Senza titolo</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#00E3AE" offset="0%"></stop>
-            <stop stop-color="#9BE15D" offset="100%"></stop>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#43E695" offset="0%"></stop>
+            <stop stop-color="#3BB2B8" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

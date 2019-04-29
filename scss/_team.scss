@@ -1,6 +1,5 @@
 // Styling for the features section
 
-section.team,
 section.team{
 
     .team-title{
@@ -8,9 +7,22 @@ section.team{
     }
 
     .team-card{
-        img{
-            width: 160px;
-            height: 160px;
+        .team-img{
+            &.border{
+                border: solid 4px !important;
+            }
+
+            &.border-grad-1{
+                border-color: $colorAccent !important; /* Old browsers */
+            }
+
+            &.border-grad-2{
+                border-color: $colorAccent2 !important; /* Old browsers */
+            }
+
+            &.border-grad-3{
+                border-color: $colorAccent3 !important; /* Old browsers */
+            }
         }
 
         p{

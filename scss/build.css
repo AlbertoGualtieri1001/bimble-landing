@@ -23,13 +23,13 @@
   /* IE6-9 fallback on horizontal gradient */ }
 
 .bg_grad_3 {
-  background: #9BE15D;
+  background: #42E695;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #9BE15D 0%, #00E3AE 100%);
+  background: -moz-linear-gradient(-45deg, #42E695 0%, #3BB2B8 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #9BE15D 0%, #00E3AE 100%);
+  background: -webkit-linear-gradient(-45deg, #42E695 0%, #3BB2B8 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #9BE15D 0%, #00E3AE 100%);
+  background: linear-gradient(135deg, #42E695 0%, #3BB2B8 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colorAccent', endColorstr='$colorAccentDark',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
@@ -434,5 +434,21 @@ footer {
     right: 24px; }
     .cinema img.cinema-close:hover {
       cursor: pointer; }
+
+section.team .team-title {
+  color: #2A2B37; }
+section.team .team-card .team-img.border {
+  border: solid 4px !important; }
+section.team .team-card .team-img.border-grad-1 {
+  border-color: #F09819 !important;
+  /* Old browsers */ }
+section.team .team-card .team-img.border-grad-2 {
+  border-color: #22E1FF !important;
+  /* Old browsers */ }
+section.team .team-card .team-img.border-grad-3 {
+  border-color: #42E695 !important;
+  /* Old browsers */ }
+section.team .team-card p {
+  color: rgba(42, 43, 55, 0.6); }
 
 /*# sourceMappingURL=build.css.map */
