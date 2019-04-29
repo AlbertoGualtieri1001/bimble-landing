@@ -166,9 +166,8 @@ section {
 .no-padding {
   padding: 0px !important; }
 
-.gradients {
-  background: url("../img/grads.svg") center bottom no-repeat;
-  background-size: cover; }
+#footer-curve {
+  margin-bottom: -10px !important; }
 
 #mainNav {
   padding-top: 16px;
@@ -382,8 +381,15 @@ section#subscribe form {
       width: 100%; } }
 
 section.contact {
-  padding: 100px 0 10px 0;
-  color: #FFFFFF; }
+  padding: 10px 0 10px 0;
+  color: #FFFFFF;
+  background: #2A2B37; }
+  section.contact img {
+    height: 180px;
+    width: 180px; }
+  section.contact .contact-social img {
+    width: 24px;
+    height: 24px; }
   section.contact li {
     list-style: none;
     color: rgba(255, 255, 255, 0.6); }
@@ -403,7 +409,8 @@ section.contact {
 footer {
   padding: 25px 0;
   text-align: center;
-  color: rgba(42, 43, 55, 0.6); }
+  color: rgba(255, 255, 255, 0.6);
+  background: #2A2B37; }
   footer p {
     font-size: 12px;
     margin: 0; }
@@ -411,11 +418,11 @@ footer {
     margin-bottom: 0; }
     footer ul li a {
       font-size: 12px;
-      color: rgba(42, 43, 55, 0.3); }
+      color: rgba(255, 255, 255, 0.3); }
       footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
         text-decoration: none; }
   footer .external-copyright {
-    color: rgba(42, 43, 55, 0.4); }
+    color: rgba(255, 255, 255, 0.4); }
 
 .cinema {
   display: none;
