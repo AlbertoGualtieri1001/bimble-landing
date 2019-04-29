@@ -1,7 +1,20 @@
 // Styling for the download section
 section.contact {
-    padding: 100px 0 10px 0;
+    padding: 10px 0 10px 0;
     color: $textSecondaryColor;
+    background: $textPrimaryColor;
+
+    img{
+        height: 180px;
+        width: 180px;
+    }
+
+    .contact-social{
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
 
     li{
         list-style: none;
