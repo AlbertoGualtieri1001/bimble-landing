@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="409px" height="306px" viewBox="0 0 409 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>hiw-shape-lg-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="3.77401763e-30%" x2="6.66133815e-14%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#22E1FF" offset="0%"></stop>
+            <stop stop-color="#625EB1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-518.000000, -1080.000000)" stroke="url(#linearGradient-1)" stroke-width="6">
+            <g id="How-it-works" transform="translate(0.000000, 809.000000)">
+                <g id="HIW-artists">
+                    <g id="Group-2" transform="translate(144.000000, 274.000000)">
+                        <g id="2" transform="translate(380.000000, 0.000000)">
+                            <path d="M50,-50 C99.596716,-21.9684892 149.596716,-7.95273387 200,-7.95273387 C250.403284,-7.95273387 300.403284,-21.9684892 350,-50 L350,301.807229 C300,333.935743 250,350 200,350 C150,350 100,333.935743 50,301.807229 L50,-50 Z" id="hiw-shape-lg-2" transform="translate(200.000000, 150.000000) rotate(-90.000000) translate(-200.000000, -150.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

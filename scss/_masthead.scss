@@ -60,7 +60,7 @@ header.masthead {
         }
 
         h2{
-            color: fade_out($textSecondaryColor, .2);
+            color: $textSecondaryColor;
 
             @media (max-width: 576px){ // xs
                 font-size: 20px;
