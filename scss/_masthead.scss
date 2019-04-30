@@ -7,6 +7,10 @@ header.masthead {
     .masthead-content{
         position: absolute;
         bottom: 30px;
+
+        @media (min-width: 992px){ // lg
+            bottom: 15vh;
+        }
     }
 
     @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
@@ -23,20 +27,6 @@ header.masthead {
 
     }
 
-    .os-info{
-        padding-left: 6px;
-        p{
-            padding-top: 14px;
-            font-size: 16px;
-            color: $textSecondaryColor;
-        }
-
-        img{
-            width: 24px;
-            height: auto;
-        }
-    }
-
     .content{
 
         @media (max-width: 768px){
@@ -48,23 +38,23 @@ header.masthead {
             line-height: 1.4em;
 
             @media (max-width: 576px){ // xs
-                font-size: 32px;
+                font-size: 38px;
             }
 
             @media (min-width: 576px){ // sm
-                font-size: 36px;
+                font-size: 42px;
             }
 
             @media (min-width: 768px){ // md
-                font-size: 48px;
+                font-size: 54px;
             }
 
             @media (min-width: 992px){ // lg
-                font-size: 56px;
+                font-size: 62px;
             }
 
             @media (min-width: 1200px){ // xl
-                font-size: 64px;
+                font-size: 70px;
             }
 
         }
@@ -73,23 +63,23 @@ header.masthead {
             color: fade_out($textSecondaryColor, .2);
 
             @media (max-width: 576px){ // xs
-                font-size: 16px;
-            }
-
-            @media (min-width: 576px){ // sm
-                font-size: 18px;
-            }
-
-            @media (min-width: 768px){ // md
                 font-size: 20px;
             }
 
+            @media (min-width: 576px){ // sm
+                font-size: 24px;
+            }
+
+            @media (min-width: 768px){ // md
+                font-size: 26px;
+            }
+
             @media (min-width: 992px){ // lg
-                font-size: 22px;
+                font-size: 28px;
             }
 
             @media (min-width: 1200px){ // xl
-                font-size: 24px;
+                font-size: 30px;
             }
 
         }
