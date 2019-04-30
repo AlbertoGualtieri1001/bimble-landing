@@ -170,7 +170,8 @@ section {
   margin-bottom: -10px !important; }
 
 .title-underlying {
-  height: 12px; }
+  height: 12px;
+  max-width: 90%; }
 
 #mainNav {
   padding-top: 16px;
@@ -476,5 +477,10 @@ section.gallery .gallery-title {
 @media screen and (min-width: 2000px) {
   section.gallery .flex-column {
     max-width: 500px; } }
+
+section.faq .faq-title {
+  color: #2A2B37; }
+section.faq p {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=build.css.map */
