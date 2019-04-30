@@ -32,7 +32,7 @@
 }
 
 .btn-accent {
-    color: fade_out($textSecondaryColor, 0.2);
+    color: $textSecondaryColor;
     background: $colorAccent; /* Old browsers */
     background: -moz-linear-gradient(45deg, $colorAccent 0%, $colorAccentDark 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,  $colorAccent 0%, $colorAccentDark 100%); /* Chrome10-25,Safari5.1-6 */
@@ -53,7 +53,7 @@
 }
 
 .btn-accent-2 {
-    color: fade_out($textSecondaryColor, 0.2);
+    color: $textSecondaryColor;
     background: $colorAccent2; /* Old browsers */
     background: -moz-linear-gradient(45deg, $colorAccent2 0%, $colorAccent2Dark 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,  $colorAccent2 0%, $colorAccent2Dark 100%); /* Chrome10-25,Safari5.1-6 */
