@@ -458,4 +458,19 @@ section.team .team-card .team-img.border-grad-3 {
 section.team .team-card p {
   color: rgba(42, 43, 55, 0.6); }
 
+section.gallery .gallery-title {
+  color: #2A2B37; }
+@media screen and (max-width: 500px) {
+  section.gallery .flex-column {
+    max-width: 170px; } }
+@media screen and (min-width: 510px) {
+  section.gallery .flex-column {
+    max-width: 230px; } }
+@media screen and (min-width: 1500px) {
+  section.gallery .flex-column {
+    max-width: 400px; } }
+@media screen and (min-width: 2000px) {
+  section.gallery .flex-column {
+    max-width: 500px; } }
+
 /*# sourceMappingURL=build.css.map */

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="220px" height="4px" viewBox="0 0 220 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 4</title>
+    <title>team-title-underline</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="0%" y1="6.16343852e-14%" x2="100%" y2="100%" id="linearGradient-1">
@@ -13,7 +13,7 @@
         <g id="Mobile" transform="translate(-17.000000, -2071.000000)" fill="url(#linearGradient-1)">
             <g id="Team" transform="translate(16.000000, 2037.000000)">
                 <g id="Title">
-                    <rect id="Rectangle-4" x="1" y="34" width="220" height="4"></rect>
+                    <rect id="team-title-underline" x="1" y="34" width="220" height="4"></rect>
                 </g>
             </g>
         </g>
