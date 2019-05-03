@@ -170,10 +170,6 @@ section {
 #footer-curve {
   margin-bottom: -10px !important; }
 
-.title-underlying {
-  height: 12px;
-  max-width: 90%; }
-
 #mainNav {
   padding-top: 16px;
   border-color: rgba(34, 34, 34, 0.05);
@@ -464,18 +460,44 @@ section.team .team-card .team-img.border-grad-3 {
 section.team .team-card p {
   color: rgba(42, 43, 55, 0.6); }
 
-@media screen and (max-width: 500px) {
-  section.gallery .flex-column {
-    max-width: 170px; } }
-@media screen and (min-width: 510px) {
-  section.gallery .flex-column {
-    max-width: 230px; } }
-@media screen and (min-width: 1500px) {
-  section.gallery .flex-column {
-    max-width: 400px; } }
-@media screen and (min-width: 2000px) {
-  section.gallery .flex-column {
-    max-width: 500px; } }
+@media (min-width: 768px) {
+  section.gallery .btn-upload-art-float {
+    position: absolute;
+    right: 0; } }
+section.gallery .flex-column {
+        /* Fede: use boostrap standard queries
+        @media (max-width: 576px){ // xs
+            font-size: 38px;
+        }
+
+        @media (min-width: 576px){ // sm
+            font-size: 42px;
+        }
+
+        @media (min-width: 768px){ // md
+            font-size: 54px;
+        }
+
+        @media (min-width: 992px){ // lg
+            font-size: 62px;
+        }
+
+        @media (min-width: 1200px){ // xl
+            font-size: 70px;
+        }
+        */ }
+  @media screen and (max-width: 500px) {
+    section.gallery .flex-column {
+      max-width: 170px; } }
+  @media screen and (min-width: 510px) {
+    section.gallery .flex-column {
+      max-width: 230px; } }
+  @media screen and (min-width: 1500px) {
+    section.gallery .flex-column {
+      max-width: 400px; } }
+  @media screen and (min-width: 2000px) {
+    section.gallery .flex-column {
+      max-width: 500px; } }
 
 section.faq p {
   margin-bottom: 30px; }
