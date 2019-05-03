@@ -160,8 +160,9 @@ p {
 
 section {
   padding: 40px 0; }
-  section h2 {
-    font-size: 50px; }
+
+.section-heading h2 {
+  font-size: 48px; }
 
 .no-padding {
   padding: 0px !important; }
@@ -463,8 +464,6 @@ section.team .team-card .team-img.border-grad-3 {
 section.team .team-card p {
   color: rgba(42, 43, 55, 0.6); }
 
-section.gallery .gallery-title {
-  color: #2A2B37; }
 @media screen and (max-width: 500px) {
   section.gallery .flex-column {
     max-width: 170px; } }
@@ -478,8 +477,6 @@ section.gallery .gallery-title {
   section.gallery .flex-column {
     max-width: 500px; } }
 
-section.faq .faq-title {
-  color: #2A2B37; }
 section.faq p {
   margin-bottom: 30px; }
 
