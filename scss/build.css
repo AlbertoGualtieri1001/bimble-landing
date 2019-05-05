@@ -464,40 +464,21 @@ section.team .team-card p {
   section.gallery .btn-upload-art-float {
     position: absolute;
     right: 0; } }
-section.gallery .flex-column {
-        /* Fede: use boostrap standard queries
-        @media (max-width: 576px){ // xs
-            font-size: 38px;
-        }
-
-        @media (min-width: 576px){ // sm
-            font-size: 42px;
-        }
-
-        @media (min-width: 768px){ // md
-            font-size: 54px;
-        }
-
-        @media (min-width: 992px){ // lg
-            font-size: 62px;
-        }
-
-        @media (min-width: 1200px){ // xl
-            font-size: 70px;
-        }
-        */ }
-  @media screen and (max-width: 500px) {
-    section.gallery .flex-column {
-      max-width: 170px; } }
-  @media screen and (min-width: 510px) {
-    section.gallery .flex-column {
-      max-width: 230px; } }
-  @media screen and (min-width: 1200px) {
-    section.gallery .flex-column {
-      max-width: 300px; } }
-  @media screen and (min-width: 2000px) {
-    section.gallery .flex-column {
-      max-width: 500px; } }
+@media (max-width: 576px) {
+  section.gallery .flex-column {
+    max-width: 170px; } }
+@media (min-width: 576px) {
+  section.gallery .flex-column {
+    max-width: 180px; } }
+@media (min-width: 768px) {
+  section.gallery .flex-column {
+    max-width: 200px; } }
+@media (min-width: 992px) {
+  section.gallery .flex-column {
+    max-width: 230px; } }
+@media (min-width: 1200px) {
+  section.gallery .flex-column {
+    max-width: 300px; } }
 
 section.faq p {
   margin-bottom: 30px; }
