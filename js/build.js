@@ -60,12 +60,14 @@ $(document).ready(function () {
     var imagesElements = $(".gallery-img");
     for (var i = 0; i < imagesElements.length; i++) {
         var element = imagesElements[i];
-        var src = $(element).attr("src");
+        var lowres = $(element).attr("src");
+        var highres = $(element).attr("data-highres");
         var w = $(element).attr("data-width");
         var h = $(element).attr("data-height");
         var title = $(element).attr("alt");
         paintings.push({
-            src: src,
+            src: highres,
+            msrc: lowres,
             w: w,
             h: h,
             title: title,
@@ -79,7 +81,7 @@ function openPainting(e) {
     // Find the correct index
     var index = 0;
     for (var i = 0; i<paintings.length; i++) {
-        if (paintings[i].src === targetSrc) {
+        if (paintings[i].msrc === targetSrc) {
             index = i;
             break;
         }
