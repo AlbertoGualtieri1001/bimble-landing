@@ -482,5 +482,9 @@ section.team .team-card p {
 
 section.faq p {
   margin-bottom: 30px; }
+section.faq h4 {
+  font-weight: bold; }
+section.faq a {
+  color: #3BB2B8; }
 
 /*# sourceMappingURL=build.css.map */

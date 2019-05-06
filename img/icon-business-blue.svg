@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="128px" viewBox="0 0 134 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Senza titolo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="6.16343852e-14%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#22E1FF" offset="0%"></stop>
+            <stop stop-color="#625EB1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1029.000000, -1134.000000)" stroke="url(#linearGradient-1)" stroke-width="3">
+            <g id="How-it-works" transform="translate(0.000000, 809.000000)">
+                <g id="HIW-business">
+                    <g id="3" transform="translate(907.000000, 274.000000)">
+                        <g id="Senza-titolo" transform="translate(124.000000, 53.000000)">
+                            <g id="Group" transform="translate(21.912254, 70.295577)">
+                                <polyline id="Shape" points="0.0179448571 52.2252906 0.440880509 0.149598616 37.60855 0.0859354366 37.2378656 52.2743684"></polyline>
+                            </g>
+                            <g id="Livello1">
+                                <path d="M0.877890559,29.2682379 C0.877890559,29.2682379 -4.80024928,54.579107 15.0932082,55.0650256 C26.396357,55.3412356 31.3503691,46.1543484 31.3503691,46.1543484 C31.3503691,46.1543484 36.4097632,55.6359183 50.1354678,55.0650256 C61.1136739,54.6084873 64.5318173,45.944288 64.5318173,45.944288 C64.5318173,45.944288 69.3229183,54.8210107 81.2307384,54.8475761 C92.5725918,54.8727341 96.250056,45.9203616 96.250056,45.9203616 C96.250056,45.9203616 98.7906607,56.7555367 114.307684,56.3287305 C130.115344,55.8938317 129.706307,35.1814202 129.526506,29.8452882 L109.371089,1.02127349 L20.2175205,0.0547142212 L0.877890559,29.2682379 Z" id="Shape"></path>
+                                <polyline id="Shape" points="10.2364854 54.4870956 10.1701598 123.858219 118.375361 123.545943 118.468252 55.8181818"></polyline>
+                            </g>
+                            <g id="Group" transform="translate(77.497856, 70.144434)">
+                                <rect id="Rectangle-path" x="0.102687671" y="0.170994844" width="28.282335" height="24.8424954"></rect>
+                            </g>
+                            <path d="M0.909382024,30.5173407 L129.885755,30.6756238" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
